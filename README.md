@@ -15,9 +15,12 @@ A [shrinkwrapped](https://docs.npmjs.com/cli/shrinkwrap) version of the node pac
 
 ## Setup
 #### Installation
-- Install the node modules:
+Install the node modules:
+
 >`npm install`
-- Install the typescript declaration files:
+
+Install the typescript declaration files:
+
 >`typings install`
 
 #### Build
