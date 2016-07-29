@@ -1,0 +1,40 @@
+{
+  "name": "electron-angular2",
+  "version": "0.1.0",
+  "scripts": {
+    "preinstall": "rm -rf typings",
+    "postinstall": "typings install",
+    "typings": "typings",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
+  "main": "main.js",
+  "dependencies": {
+    "@angular/common": "2.0.0-rc.4",
+    "@angular/compiler": "2.0.0-rc.4",
+    "@angular/core": "2.0.0-rc.4",
+    "@angular/http": "2.0.0-rc.4",
+    "@angular/platform-browser": "2.0.0-rc.4",
+    "@angular/platform-browser-dynamic": "2.0.0-rc.4",
+    "@angular/router": "3.0.0-beta.1",
+    "@angular/router-deprecated": "2.0.0-rc.2",
+    "core-js": "^2.4.0",
+    "electron-prebuilt": "^1.3.1",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "5.0.0-beta.6",
+    "systemjs": "0.19.28",
+    "zone.js": "^0.6.12"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "concurrently": "^1.0.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-ts": "^5.5.1",
+    "jasmine-core": "2.4.1",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4"
+  }
+}
