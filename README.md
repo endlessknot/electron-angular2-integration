@@ -1,8 +1,8 @@
 # electron-angular2-integration
-An example project that demonstrates the integration of Electron's APIs into Angular2 Components.
+A lightweight example project that demonstrates the integration of Electron's APIs into Angular2 Components.
 
 ## Intention
-There are several examples available on the internet that demonstrate the basic integration of Electron and Angular2. However, I found none that demonstrating calling Electron's API calls (such as `dialog`) from within ng2 code (like in a `Component`), so I put up this project to make the process easier for others.
+There are several examples available on the internet that demonstrate the basic integration of Electron and Angular2. However, I found none that demonstrated calling Electron's API calls (such as `dialog`) from within ng2 code (like in a `Component`) and was lightweight enough to serve me as a starting point, so I put up this project to make the process easier for others.
 
 It not only serves as an example but also as a boilerplate template for starting new Electron/Angular2 apps.
 
